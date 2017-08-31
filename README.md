@@ -3,9 +3,9 @@
 This server enable downloading audiofile from different web plateform such as Youtube, Soundcloud...
 using youtube-dl.
 
-##Quickstart
+## Quickstart
 
-###Deploy
+### Deploy
 To build the project run :
 ```bash
 docker-compose build

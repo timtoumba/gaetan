@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_PATH=/modules/node_modules
+    volumes:
+      - ./express-server:/usr/src/app
+    ports:
+      - "8080:8080"
+    command: nodemon
